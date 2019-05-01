@@ -233,8 +233,8 @@
     <td class="dataFont" *ngIf="data"><b>{{data.results[0].title}}</b><br> <img src="https://image.tmdb.org/t/p/w185/{{data.results[0].poster_path}}" style="border:.10em solid black; margin-top: 1em"></td>
     <td class="dataFont" *ngIf="data">{{data.results[0].overview}}</td>
     <td class="dataFont" *ngIf="data">{{data.results[0].release_date}}</td>
-                                                                                        <!--Captain Marvel-->
-    <td class="dataFont"><iframe width="560" height="315" style="border: .20em solid black" src="https://www.youtube.com/embed/Z1BCujX3pw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                                                                                        <!--Avengers Endgame-->
+    <td class="dataFont"><iframe width="560" height="315" style="border: .20em solid black" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
     <td *ngIf="isValid == true && accountExists == true"><h2 *ngIf="data" [(ngModel)]="movie_id" style="text-align: center"><b>Review {{data.results[0].title}}</b></h2>
         <textarea type="text" [(ngModel)]="reviewText" rows="10" cols="50" style="width: 100%" placeholder="Review..."></textarea>
         <button class="btn btn-default" style="margin-left: 1em; display: inline-block; width: 20%; float: left; font-size: 1em; background-color: green; color: white; font-family:Arial, Helvetica, sans-serif" 
@@ -250,11 +250,11 @@
     </td>
   </tr>
 
-  <tr class="resultsTable" ng-repeat="movie in movies">                                 <!--Avengers Endgame-->
+  <tr class="resultsTable" ng-repeat="movie in movies">                                 <!--Captain Marvel-->
     <td class="dataFont" *ngIf="data"><b>{{data.results[1].title}}</b><br> <img src="https://image.tmdb.org/t/p/w185/{{data.results[1].poster_path}}" style="border:.10em solid black; margin-top: 1em"></td>
     <td class="dataFont" *ngIf="data">{{data.results[1].overview}}</td>
     <td class="dataFont" *ngIf="data">{{data.results[1].release_date}}</td>
-    <td class="dataFont"><iframe width="560" height="315" style="border: .20em solid black" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+    <td class="dataFont"><iframe width="560" height="315" style="border: .20em solid black" src="https://www.youtube.com/embed/Z1BCujX3pw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
     <td *ngIf="isValid == true && accountExists == true"><h2 *ngIf="data" [(ngModel)]="movie_id" style="text-align: center"><b>Review {{data.results[1].title}}</b></h2>
         <textarea type="text" [(ngModel)]="reviewText1" rows="10" cols="50" style="width: 100%" placeholder="Review..."></textarea>
         <button class="btn btn-default" style="margin-left: 1em; display: inline-block; width: 20%; float: left; font-size: 1em; background-color: green; color: white; font-family:Arial, Helvetica, sans-serif" 
@@ -350,11 +350,11 @@
     </td>
     </tr>
 
-    <tr class="resultsTable" ng-repeat="movie in movies">                                   <!--Shazam-->
+    <tr class="resultsTable" ng-repeat="movie in movies">                                   <!--Doraemon-->
         <td class="dataFont" *ngIf="data"><b>{{data.results[6].title}}</b><br> <img src="https://image.tmdb.org/t/p/w185/{{data.results[6].poster_path}}" style="border:.10em solid black; margin-top: 1em"></td>
     <td class="dataFont" *ngIf="data">{{data.results[6].overview}}</td>
     <td class="dataFont" *ngIf="data">{{data.results[6].release_date}}</td>
-    <td class="dataFont"><iframe width="560" height="315" style="border: .20em solid black" src="https://www.youtube.com/embed/-oD7B7oiBtw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+    <td class="dataFont"><iframe width="560" height="315" style="border: .20em solid black" src="https://www.youtube.com/embed/ghjF37V1cW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
     <td *ngIf="isValid == true && accountExists == true"><h2 *ngIf="data" [(ngModel)]="movie_id" style="text-align: center"><b>Review {{data.results[6].title}}</b></h2>
         <textarea type="text" [(ngModel)]="reviewText6" rows="10" cols="50" style="width: 100%" placeholder="Review..."></textarea>
         <button class="btn btn-default" style="margin-left: 1em; display: inline-block; width: 20%; float: left; font-size: 1em; background-color: green; color: white; font-family:Arial, Helvetica, sans-serif" 
@@ -370,11 +370,11 @@
     </td>
       </tr>
 
-      <tr class="resultsTable" ng-repeat="movie in movies">                                   <!--Doraemon-->
+      <tr class="resultsTable" ng-repeat="movie in movies">                                <!--Cold Pursuit-->
           <td class="dataFont" *ngIf="data"><b>{{data.results[7].title}}</b><br> <img src="https://image.tmdb.org/t/p/w185/{{data.results[7].poster_path}}" style="border:.10em solid black; margin-top: 1em"></td>
     <td class="dataFont" *ngIf="data">{{data.results[7].overview}}</td>
     <td class="dataFont" *ngIf="data">{{data.results[7].release_date}}</td>
-    <td class="dataFont"><iframe width="560" height="315" style="border: .20em solid black" src="https://www.youtube.com/embed/ghjF37V1cW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+    <td class="dataFont"><iframe width="560" height="315" style="border: .20em solid black" src="https://www.youtube.com/embed/7C2Nad0aMPg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
     <td *ngIf="isValid == true && accountExists == true"><h2 *ngIf="data" [(ngModel)]="movie_id" style="text-align: center"><b>Review {{data.results[7].title}}</b></h2>
         <textarea type="text" [(ngModel)]="reviewText7" rows="10" cols="50" style="width: 100%" placeholder="Review..."></textarea>
         <button class="btn btn-default" style="margin-left: 1em; display: inline-block; width: 20%; float: left; font-size: 1em; background-color: green; color: white; font-family:Arial, Helvetica, sans-serif" 
@@ -390,11 +390,11 @@
     </td>
         </tr>
 
-        <tr class="resultsTable" ng-repeat="movie in movies">                               <!--What men Want-->
+        <tr class="resultsTable" ng-repeat="movie in movies">                               <!--Shazam-->
             <td class="dataFont" *ngIf="data"><b>{{data.results[8].title}}</b><br> <img src="https://image.tmdb.org/t/p/w185/{{data.results[8].poster_path}}" style="border:.10em solid black; margin-top: 1em"></td>
     <td class="dataFont" *ngIf="data">{{data.results[8].overview}}</td>
     <td class="dataFont" *ngIf="data">{{data.results[8].release_date}}</td>
-    <td class="dataFont"><iframe width="560" height="315" style="border: .20em solid black" src="https://www.youtube.com/embed/HeoLiTirRp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+    <td class="dataFont"><iframe width="560" height="315" style="border: .20em solid black" src="https://www.youtube.com/embed/-oD7B7oiBtw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
     <td *ngIf="isValid == true && accountExists == true"><h2 *ngIf="data" [(ngModel)]="movie_id" style="text-align: center"><b>Review {{data.results[8].title}}</b></h2>
         <textarea type="text" [(ngModel)]="reviewText8" rows="10" cols="50" style="width: 100%" placeholder="Review..."></textarea>
         <button class="btn btn-default" style="margin-left: 1em; display: inline-block; width: 20%; float: left; font-size: 1em; background-color: green; color: white; font-family:Arial, Helvetica, sans-serif" 
